@@ -55,9 +55,9 @@
     });
 
     /*------------------
-		Hero Slider
+		Banner Slider
 	--------------------*/
-    $('.hero__slider').owlCarousel({
+    $('.banner__slider').owlCarousel({
         loop: true,
         dots: true,
         mouseDrag: false,
@@ -70,7 +70,7 @@
         autoplay: true,
     });
 
-    var dot = $('.hero__slider .owl-dot');
+    var dot = $('.banner__slider .owl-dot');
     dot.each(function () {
         var index = $(this).index() + 1;
         if (index < 10) {
